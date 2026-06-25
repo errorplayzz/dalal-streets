@@ -1,0 +1,58 @@
+/* Authentication Page Styles */
+.vendor-auth .auth-container {
+  background-color: var(--secondary-color);
+}
+
+.vendor-auth .auth-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vendor-auth .auth-title {
+  color: var(--primary-color);
+}
+
+.vendor-auth .auth-error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.vendor-auth .auth-button {
+  background-color: var(--vendor-color);
+}
+
+.vendor-auth .auth-button:hover {
+  background-color: #2980b9;
+}
+
+.vendor-auth .toggle-button {
+  color: var(--vendor-color);
+}
+
+/* Dashboard Styles */
+.vendor-dashboard .dashboard-header {
+  background-color: var(--vendor-color);
+}
+
+.vendor-dashboard .user-info .business-name {
+  font-style: italic;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.vendor-dashboard .logout-button {
+  background-color: white;
+  color: var(--vendor-color);
+}
+
+.vendor-dashboard .logout-button:hover {
+  background-color: #f8f8f8;
+}
+
+.vendor-dashboard .nav-tabs li.active button {
+  color: var(--vendor-color);
+  box-shadow: inset 0 -3px 0 var(--vendor-color);
+}
+
+/* These styles extend the client styles but override colors and specific elements */
